@@ -1,0 +1,14 @@
+# Secrets: never commit API keys
+.env
+*.env
+
+# KBOB data file: download from the official source instead of committing it
+data/
+*.xlsx
+*.xls
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
